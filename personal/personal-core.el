@@ -17,3 +17,6 @@
 
 ;; Maximize frame
 (add-hook 'window-setup-hook 'maximize-frame t)
+
+;; Set font
+(set-face-attribute 'default nil :font "Inconsolata-12")

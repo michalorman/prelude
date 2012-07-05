@@ -11,7 +11,8 @@
 
 ;; Set prelude-prog-mode personal defaults
 (defun personal-prog-mode-defaults ()
-  (idle-highlight-mode-defaults))
+  (idle-highlight-mode-defaults)
+  (whitespace-defaults))
 
 (setq personal-prog-mode-hook
       'personal-prog-mode-defaults)
